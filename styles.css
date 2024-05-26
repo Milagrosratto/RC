@@ -28,7 +28,7 @@ header {
 .container {
     text-align: center;
     position: relative;
-    color:#CD7DE1;
+   
 }
 
 .violet-button {
@@ -63,42 +63,6 @@ li {
     margin: 5px;
 }
 
-#contact form {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-#contact form div {
-    margin-bottom: 10px;
-}
-
-#contact form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-#contact form input[type="text"],
-#contact form input[type="tel"],
-#contact form input[type="email"] {
-    width: calc(100% - 22px);
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-#contact form button {
-    background-color: #0056b3;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#contact form button:hover {
-    background-color: #003d7a;
-}
 .containerEmpresa {
     color: white;
     display: grid;
@@ -155,8 +119,9 @@ li {
 }
 
 .plans-section {
+    background-image: url('fondo.png');
     text-align: center;
-    padding: 80px 20px;
+    padding: 10% 20px;
 }
 
 .plans-section h1 {
@@ -207,7 +172,7 @@ li {
 }
 
 .image-section {
-    padding: 20px;
+    padding: 10%;
     max-width: 1200px;
     margin: 0 auto;
     background-color: #CD7DE1
@@ -255,6 +220,7 @@ li {
     width: 100px;
     height: auto;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 .footer-connect {
