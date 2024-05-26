@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Responsivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="containerForm">
+        <div class="form-container">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="telefono">Área + Teléfono</label>
+                <input type="text" id="telefono" name="telefono" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="ciudad">Ciudad</label>
+                <input type="text" id="ciudad" name="ciudad" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </form>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank">
+                    <img src="instagram-icon.png" alt="Instagram">
+                </a>
+
+                <button type="submit">Enviar</button>
+
+                <a href="https://facebook.com" target="_blank">
+                    <img src="facebook-icon.png" alt="Facebook">
+                </a>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="laptop-image.png" alt="Laptop">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
